@@ -254,3 +254,32 @@ header nav a{
     border-radius: 10px;
 }
 
+/* footer styles */
+.footer-container{
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.footer-container h1{
+    font-size: 80px;
+    margin: 0 0 20px 0;
+}
+.footer-container p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.footer-items{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;;
+}
+.footer-items li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(37, 36, 50, 0.5);
+}
+.footer-container li a:hover {
+  color: #4c40f7;
+}
