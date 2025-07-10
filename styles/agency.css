@@ -17,9 +17,9 @@
   font-weight: 800;
 }
 
-/* .body-color{
-    background-color: rgba(30, 30, 30, 1);
-} */
+.body-color{
+    background-color: #f5f8ff;
+}
 
 .dark2{
     color: #252432;
@@ -170,5 +170,33 @@ header nav a{
 }
 .reviewer-name .date{
     margin-top: 0;
+}
+
+/* focus styles */
+.focus{
+    text-align: center;
+    margin-top: 50px;
+    padding: 40px 20px;
+}
+
+.foc-container{
+    margin: 40px 160px;
+    padding: 60px 40px;
+    background-color: rgba(211, 211, 211, 0.445);
+    border-radius: 15px;
+}
+.foc-container h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.foc-container p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.focus-img img{
+    margin-top: 30px;
+    border-radius: 48px;
 }
 
