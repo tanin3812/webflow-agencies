@@ -1,4 +1,5 @@
 
+
 /* shared styles */
 
 .inter-normal {
@@ -85,8 +86,7 @@ header nav a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 60px 100px;
-    margin-top: 50px;
+    padding: 80px 100px 50px 100px;
 }
 .action-content{
     max-width: 500px;
@@ -198,5 +198,59 @@ header nav a{
 .focus-img img{
     margin-top: 30px;
     border-radius: 48px;
+}
+
+/* contact styles */
+.contact{
+    padding: 50px 20px;
+}
+.contact-container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    width: 70%;
+    margin-bottom: 50px;
+}
+.contact-container h2{
+    font-size: 70px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  max-width: 400px;
+}
+
+.contact-form label{
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.contact-form input[type="email"], .contact-form input[type="text"]{
+    height: 40px;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+}
+.contact-form textarea{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+}
+
+.contact-form button{
+    width: 110%;
+    border-radius: 10px;
 }
 
