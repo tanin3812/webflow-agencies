@@ -19,6 +19,9 @@
 .dark2{
     color: #252432;
 }
+.dark3{
+    color: rgba(37, 36, 50, 0.5);
+}
 
 .btn-primary{
     background-color: blue;
@@ -29,6 +32,7 @@
     font-weight: 200;
     font-size: 16px;
     cursor: pointer;
+
 }
 
 button:hover{
@@ -65,4 +69,26 @@ header nav a{
     font-size: 40px;
     line-height: 0.5;
     margin: 50px;
+}
+
+/* action style */
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 100px;
+}
+.action-content{
+    max-width: 500px;
+}
+.action-content h2{
+    font-weight: 700;
+    font-size: 42px;
+}
+.action p{
+    font-size: 24px;
+    margin: 20px 0;
+}
+.action-img{
+    border-radius: 48px;
 }
